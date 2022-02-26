@@ -1,0 +1,22 @@
+header{
+    background-color: aliceblue;
+}
+.container{
+    width: 1920px;
+    margin: 0;
+}
+.best-bouquets{
+    background-color: antiquewhite;
+}
+.name-bouquet{
+    background-color: aliceblue;
+}
+.content{
+    background-color: antiquewhite;
+}
+.poem{
+    background-color: aliceblue;
+}
+footer{
+    background-color: antiquewhite;
+}
