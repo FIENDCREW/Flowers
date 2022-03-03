@@ -1,22 +1,129 @@
-header{
-    background-color: aliceblue;
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+body {
+    font-family: Montserrat;
+    margin: 0;
 }
 .container{
     width: 1920px;
-    margin: 0;
+    margin: 0 auto;
+    /* height: 1410px; */
+}
+header{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    height: 80px;
+
+    box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
 }
 .best-bouquets{
-    background-color: antiquewhite;
+    text-align: center;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 49px;
+    height: 63px;
+
+    color: #424242;
 }
 .name-bouquet{
-    background-color: aliceblue;
+    display: flex;
+    width: 1137,5px;
+    height: 414px;
+
 }
+.main-section{
+    background-color: #FFFFFF;
+    flex: 10;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.section-main-item{
+    width: calc(50% - 640px);
+    box-sizing: border-box;
+    margin: 5px;
+    text-align: center;
+    color: #424242; 
+    
+}
+.first-name{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #212121;
+}
+.last-name{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+}
+
 .content{
-    background-color: antiquewhite;
+    font-style: italic;
+    text-align: center;
+    color: #FF445A;
+    width: 1137,5px;
+    height: 283px;
 }
+.quotation{
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 150%;
+}
+.dorty{
+    font-size: 24px;
+}
+
 .poem{
-    background-color: aliceblue;
+    background-color: #FFFFFF;
+    display: flex;
+    width: 1137,5px;
+    height: 441px;
 }
+.section-poem{
+    flex: 10;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.poem-box{
+    width: calc(50% - 500px);
+    box-sizing: border-box;
+    margin: 10px;
+}
+.poem-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+
+    color: #424242;
+}
+
+
+
+
+
 footer{
-    background-color: antiquewhite;
+    background-color: #FFB5B5;
+    width: 1920px;
+    height: 80px;
+   
+}
+.footer{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: -80px;
+
+    color: #FFFFFF;
+    text-align: center;
 }
